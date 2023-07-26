@@ -33,7 +33,7 @@ RUN \
 #    add-pkg --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
 #            --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
 #            --upgrade firefox=${FIREFOX_VERSION}
-     add-pkg firefox=${FIREFOX_VERSION}
+     apk add firefox
 
 # Install extra packages.
 RUN \
